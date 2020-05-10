@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>events.rw Login Form</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web\css\all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+
+	<script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+	<script src="bootstrap.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a href="#" class="navbar-brand"><img src="logo.png" width="85" height="60"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#event" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     		<span class="navbar-toggler-icon"></span>
+    		</button> 
+
+    		<div class="collapse navbar-collapse" id="event">
+    			
+    			<ul class="navbar-nav ml-auto">
+    				<li class="nav-item">
+    					<a href="#" class="nav-link" id="log-in"><i class="fas fa-fingerprint"></i> Login</a>
+    				</li>
+    				<li class="nav-item">
+    					<div class="dropdown">
+ 						 	<a class="dropdown-toggle btn btn-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    						 <i class="fas fa-globe">  </i>  English
+  							</a>
+
+ 							 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    							<a class="dropdown-item" href="#">Kinyarwanda</a>
+    							<a class="dropdown-item" href="#">Francais</a>
+  							</div>
+						</div>
+
+    				</li>
+    				<li class="nav-item">
+    					<a href="#" class="btn btn-info"><i class="far fa-calendar-check icon"></i> Browse Events</a>
+    				</li>
+    			</ul>
+    		</div> 
+		</div>
+	</nav>
+
+<div id="form" class="row">
+	<div class="col-sm-4"> <p>        </p></div>
+	<div class="col-sm-8">
+		<form>
+			<h1>Login</h1>
+
+			<div class="form-group">
+            	
+    			<input type="email" class="form-control" id="Email1" placeholder="Email" aria-describedby="emailHelp" required>
+    
+  			</div>
+  			<div class="input-group">
+ 			 <div class="input-group-prepend">
+    			
+    			<input type="password" class="form-control" id="Password1" placeholder="Password" required minlength="5" maxlength="15">
+    			<div class="input-group-text" id="hide1"><button class="btn btn-light" id="eye1"><i class="far fa-eye"></i></button></div>
+        		</div>
+  			</div>
+
+      		<div class="form-group form-check">
+      			<label class="form-check-label" for="Check1">
+      			<input type="checkbox" class="form-check-input" id="Check1">
+      			<span class="check"></span>
+    			Remember me</label>
+  			</div>
+  			 <button type="submit" class="btn btn-info" id="login">Login</button>
+
+  			<p>
+  				<span><a href="#" class="alternative">Forgot Password</a></span>
+  				<span><a href="#" class="alternative" id="register">Register</a></span>
+  			</p>
+
+  			<hr>
+  			<span id="other">Or Continue with</span>
+  			<a href="#" class="btn btn-info" id="facebook"><i class="fab fa-facebook-f icon"></i>  Facebook</a>
+  			<a href="#" class="btn btn-info"><i class="fab fa-google icon"></i>  Google</a>
+ 
+		</form>
+
+	</div>
+	<div class="col-sm-4">   <p>        </p></div>
+</div>
+
+<div id="info" class="row">
+	
+	<div id="part1" class="row">
+		<div class="col-sm-2 about" >
+			<img src="logo.png" id="logo">
+		</div>
+
+		<div class="col-sm-2 about">
+			<h5>Useful Links</h5>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Blogs</a></li>
+				<li><a href="#">Terms & Conditions</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+			</ul>
+		</div>
+
+		<div class="col-sm-2 about">
+			<h5>Contact</h5>
+			<ul>
+				<li><a href="#" id="message">Send us a message</a></li>
+				<li><a href="#">85 Golden Street, Darlinghurst ERP 2019, United States</a></li>
+				<li id="map"><i class="fas fa-map-marked-alt icon">   </i> Find us on Map</li>
+				
+			</ul>
+		</div>
+
+		<div class="col-sm-2 about">
+			<h5>Social Connections</h5>
+			<ul>
+				<li id="find">Find us on social platforms</li>
+				
+				<li>
+					<div class="row" >
+						<div class="col-sm-4"><a href="#"> <i class="fab fa-facebook social" ></i> </a></div>
+						<div class="col-sm-4"><a href="#"> <i class="fab fa-instagram-square social"></i> </a></div>
+						<div class="col-sm-4"><a href="#"> <i class="fab fa-twitter-square social"></i> </a></div>
+					</div>
+
+				</li>
+				
+			</ul>
+		</div>
+	<!-- </div>
+	<div id="hr" class="row">
+	<hr> -->
+	</div>
+
+	<div id="part2" class="row">
+		<div class="col-sm-12 copyright">
+			<hr>
+		</div>
+		<div class="col-sm-4 copyright"></div>
+		<div class="col-sm-2 copyright"><span id="events"> 2020 events.rw</span></div>
+		<div class="col-sm-2 copyright"><span id="powered">Powered by <span id="ltd">Hviewtech Ltd</span></span></div>
+		<div class="col-sm-4 copyright"></div>
+	</div>
+</div>
+
+</body>
+</html>

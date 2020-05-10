@@ -1,0 +1,346 @@
+body{
+	background: #007bff;
+	font-family: roboto;
+}
+
+#form{
+	height: 60%;
+}
+
+#info{
+	background: #0a437a;
+	height: 40%;
+}
+
+
+/*#hr{
+
+border: 2px solid #f8f8f8;
+margin: 7px 30px;
+
+}*/
+
+#part1{
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+#part1 h5{
+	color: white;
+	width: 200px;
+	margin: 0px 0px 35px 0px;
+	font-weight: 300;
+	font-size: 19px;
+	
+}
+#part2{
+	width: 100%;
+  margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#map{
+color: white;
+}
+
+#find{
+	color: #7abbff;
+}
+
+.about{
+	margin: 30px 30px 5px 50px;
+	padding: 30px 30px 5px 50px;
+	width: 180px;
+	height:180px;
+}
+
+.about a{
+	color: #7abbff; 
+}
+
+.about ul{
+  width: 200px;
+  padding:0px 0px 0px 0px;
+  margin:0px 4px 2px 0px;
+  color: transparent;
+}
+
+.about li{
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.about a:hover{
+	color: #6497cc; 
+	text-decoration: none; 
+}
+
+.about .social{
+	color: #ffffff; 
+	font-size: 30px;
+	margin-top:20px;
+}
+
+.copyright{
+
+	margin: 10px 5px;
+	padding:10px 5px;
+}
+
+.copyright hr{
+	margin: 30px 100px 30px 100px; 
+	border-bottom: 1px solid #9292a0;
+	border-top: 1px solid #f1f1f1;
+
+
+}
+
+.bg-light{
+	background: #0a437a !important;
+	
+
+}
+nav{
+	padding-right: 0px;
+	width: 100%
+}
+
+#dropdownMenuLink{
+	
+	text-decoration: none;
+	color: #f0f8ff;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+#dropdownMenuLink:hover{
+	
+	color: #023363;
+	
+}
+
+#logo{
+	margin-left: 80px;
+}
+
+#events{
+margin-left: 100px;
+font-weight: 300;
+content: "\00A9";
+color: white;
+}
+
+#powered{
+	margin-right: 20px;
+	font-weight: 400;
+	color: white;
+}
+
+#ltd{
+	color: black;
+	font-weight: 300;
+
+}
+#form h1{
+color: white;
+letter-spacing: 2px;
+font-size: 32px;
+font-weight: 300;
+margin: 80px 0px 40px 150px;
+}
+
+#Email1{
+color: white;
+background: #7abbff;	
+border: 2px solid white;
+width: 400px;
+height: 60px;
+margin-bottom: 5px;
+margin-top: 5px; 
+
+
+}
+
+#Password1{
+color: white;
+background: #7abbff;	
+border: 2px solid white;
+width: 333px;
+height: 60px;
+margin-bottom: 5px;
+margin-top: 5px;
+border-right: 0px solid #7abbff; 
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+
+}
+#hide1{
+height: 60px;
+background: #7abbff;
+border: 2px solid white;
+margin-top: 5px;
+border-left: 0px solid #7abbff; 
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 4.5px;
+border-bottom-right-radius: 4.5px;  
+}
+
+#eye1{
+background: #7abbff;
+color: white;
+border: 0px solid #7abbff;
+}
+
+#eye1:hover{
+color: #a2a2a2;	
+}
+
+.form-check input{
+	display: none;
+
+}
+
+.form-check {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  padding-left: 0px;
+  user-select: none;
+}
+
+.form-check span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+	margin-top: 15px;
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 3.4px;  
+}
+
+.form-check input:checked + span{
+	background-color: #17a2b8;
+	border-color: #17a2b8;
+
+
+}
+
+.form-check input:checked + span:after{
+	content: " ";
+	position: absolute;
+	height: 4px;
+	width: 9px;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	top: 60.4%;
+	left: 0.8%;
+	transform: translate(-50%,-50%) rotate(-45deg);
+
+
+}
+
+
+.form-check label{
+	color: white; 
+	font-weight: 300;
+}
+
+.btn-info{
+	color: #007bff;
+	font-weight: 500;
+	background: white;
+	border-radius: 7.6px;
+	padding: 10px 15px;
+}
+
+
+#login{
+width: 400px;
+height: 60px;
+margin-bottom: 10px;
+}
+
+#log-in{
+color: rgba(122, 187, 255, .5);
+}
+
+#log-in:hover{
+color: rgba(0,0,0,0.5);
+}
+
+.icon{
+	margin-right: 7.7px;
+}
+
+
+.alternative{
+	color: white;
+	font-weight: 300;
+}
+.alternative:hover{
+	text-decoration: none;
+	color: #7abbff;
+}
+
+#register{
+	margin-left: 215px;
+}
+
+#facebook{
+
+margin-left: 45px;
+
+}
+
+#other{
+	color: white;
+	font-weight: 300;
+}
+
+form hr{
+	text-align: right;
+	
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #9292a0;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 490px;	
+}
+
+form{
+	margin-top: 200px; 
+	margin-bottom: 400px; 
+	
+}
+
+
+
+#Password1::-webkit-input-placeholder{
+color: white;
+
+}
+#Email1::-webkit-input-placeholder{
+color: white;
+
+}
+
+
+/*:-ms-input-placeholder{
+color: white;
+
+}
+
+::-moz-placeholder{
+color: white;
+opacity: 1;
+}
+
+
+:-moz-placeholder{
+color: white;
+opacity: 1;
+}*/
+
